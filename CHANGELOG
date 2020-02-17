@@ -1,0 +1,46 @@
+[old-397b0b][02/24/2019 @ 12:32 PM] Initial Commit
+[...]
+[old-f69b1e][04/06/2019 @ 11:59 AM] Update 4.22.0 06-04-2019
+[...]
+[old-95e2b5][05/19/2019 @ 06:26 PM] Finished Course
+[old-872302][05/19/2019 @ 05:56 PM] Cleaned StarterContent.
+[old-e96018][05/19/2019 @ 06:26 PM] Cleaned C++ unused + fixes
+[old-b9cbf3][05/19/2019 @ 06:40 PM] Fixed False Positives setting EnemyKeys
+[old-77248a][05/19/2019 @ 06:46 PM] Related with previous commit
+[old-a2bd20][06/01/2019 @ 10:43 AM] Added a ActorGarbageCollector, Implemented Sprint and some effects of FoV
+[old-469111][06/01/2019 @ 04:33 PM] Fixed Enabled Collision after UnPossessed, Itself Damage and Bad Location for NavMesh bugs.
+[old-e459b3][06/15/2019 @ 10:25 AM] Added more DeathAnimations and another stuff
+[old-b34fbe][07/07/2019 @ 02:07 PM] Fixed Self-Damage and added AimMode
+[old-5302e1][07/13/2019 @ 07:40 PM] Added Health & Ammo Items, Sorted C++ Files
+[old-b2c625][07/13/2019 @ 08:28 PM] Cleaned Duplicated Files
+[old-8932ad][07/28/2019 @ 12:50 PM] Added License, Commented some logs and removed some ticks
+[old-c5b5b1][08/04/2019 @ 04:53 PM] Added Pause, MenuTitle, Options (Basic) UI and Added a Paused State.
+[old-db1188][08/18/2019 @ 01:15 PM] Implemented Menus and moved some thirdparty files to vendors
+[old-084d09][09/02/2019 @ 06:08 PM] Added Initial Implementation of Revive Feature
+[old-a1315a][09/14/2019 @ 08:38 PM] Updated to 4.23.0
+*Trying push to Github as private, Issues related with File Size, files not recognised by LFS (in some commit), trying removing Marketplace Assets from previous commit, etc, etc*
+[new-80bd8b][09/21/2019 @ 07:01 PM] Initial Commit (after disaster)
+[new-0c23c7][09/28/2019 @ 05:59 PM] Fixed no movement issue after revive (Issue: Collision disabled) and BP cleaned
+[new-2bf0a8][09/29/2019 @ 08:47 PM] Added a new Tile (Castle), Improved Code Quality for BP_Tile (Issues from Course), fixed some bug related with AI, Added Support for differents Tiles progression in runtime
+[new-8a9e61][10/05/2019 @ 07:32 PM] Implemented Graphics Settings and bugfixes related with height between Maps and re-added Container item to Tile_green, and replaced Initial Tile from MainMenu
+[new-ee58ef][10/06/2019 @ 04:55 PM] Added SaveHighScore function implemented, Added HighScore marker in HUD,  some refactoring for QoC and fixed a bug.
+[new-4adc98][10/13/2019 @ 02:16 PM] Fixed Missing References from BTTask, Fixed some issues related with Cooking Build
+[new-46541f][10/13/2019 @ 08:49 PM] Fixed 'Fire' Audio Loop, added some delay effect to Fire Audio, and First Implementation (disabled) of Random Dead Animation, Cooking Ready
+[new-ec27ca][10/13/2019 @ 10:24 PM] Added README.md and added Copyright Notes [Tag#0.0.1-private]
+[new-66e0b9][10/19/2019 @ 01:17 PM] Removed Third-Party Assets (Death Animations - MoCap Pack)
+[new-9c1d2a][10/20/2019 @ 04:55 PM] Removed StartupActions/InsertPack. Added Revive Limit (def: 3 retries??), Some refactoring (related with Revive Limit), Fixed some Warning BP Compilation, and moved Fonts folder to Static
+[new-a8702f][10/20/2019 @ 08:48 PM] Fixed Size/Proportion of some TIles, Added a Initial Support for Get Safe reSpawn zone, Added Checks of Kill Z (Out of World), and added Initial Support (disabled) for Respawn character after destruction.
+[new-c49208][10/27/2019 @ 07:47 PM] Improved Quality of Code, trying to improve GPU Loads, Added some Items to BP_Tile_Castle and built lights.
+[new-09d327][11/10/2019 @ 09:03 PM] added 2 new Tiles based in BP_Tile_Castle,which only one is activated
+[new-83dd8e][12/15/2019 @ 09:36 PM] Implemented Basic Localization Support (with English and Spanish Support), implemented FootStepSound , Implemented MegaScans Textures, A new Rock from MegaScans and some Quality of Code.
+[new-885e52][12/22/2019 @ 08:16 PM] Fixed some Collision boxes, sorted code, added/Implemented RespawnTeleport mode and cleaned BP Code.
+[new-f59899][01/13/2020 @ 12:23 AM] Improved Menus, Improved GetSafeLocation, cleaned some commentaries and renamed LICENSE file
+[new-50bdcd][01/18/2020 @ 12:39 PM] Added UE4Toolkit
+[new-2cd1de][01/20/2020 @ 12:44 AM] UE_LOGs are more verbose.
+[new-b08dd3][01/26/2020 @ 12:03 PM] Bug fixed issue related with the placement of navmeshes, Log Improved, Cleaned/Simplified BP Code.
+[new-fc7980][02/08/2020 @ 08:07 PM] Implemented Resolution Selector and moved Baguette.h/.cpp to Character Folder
+[new-d48ef1][02/09/2020 @ 01:09 PM] ViewDistance/Props/Ticks Optimization and some Code refactoring.
+[new-c883a0][02/16/2020 @ 12:41 PM] Fixed all bugs related with Enemy Spawns
+[new-507f6d][02/16/2020 @ 09:05 PM] Implemented Enemies Multiplier, Added Tutorial, some bugfixes, some QoC and reviewed English and Spanish (es_ES) Translations. #0.1.0-rc1
+[new-ae8e00][02/17/2020 @ 11:01 AM] Some bugfixes and removed some deprecated controllers. #0.1.0-rc2
+[new-04a735][02/17/2020 @ 06:06 PM] Fixed Bugs related with Widgets, Fixed Game Design about EnemiesMultiplier and Added Macros Compatiblity Layer for Win32. #0.1.0-rc3
